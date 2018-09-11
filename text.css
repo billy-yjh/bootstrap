@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-nav {
+    background-color: #021523;
+}
+
+.navbar.navbar-default {
+    background: none;
+    border: none;
+}
+
+.header-nav span {
+    font-size: 30px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header-nav h1 {
+    display: inline-block;
+}
+
+.header-nav h1,
+.header-nav h4 {
+    color: white;
+}
+
+.navbar.navbar-default .navbar-nav li a {
+    color: white;
+    font-weight: border;
+    font-size: 20px
+}
+
+.navbar.navbar-default .navbar-nav li a:hover {
+    color: #f40;
+}
+
+.about-left-img {
+    background: url('./ab.jpg') no-repeat center;
+    height: 640px;
+    background-size: cover;
+}
+
+.about-top_agile_its {
+    padding: 20px;
+}
+
+.about-top_agile_its h2 {
+    font-weight: 700px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.about-top_agile_its h5 {
+    font-size: 11px;
+    font-weight: 400;
+    color: #33cc99;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #cec8c8;
+    margin: 0px 0px 15px 0px;
+    letter-spacing: 4px;
+}
+
+.about-top_agile_its p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #838383;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.about-top_agile_its span {
+    font-weight: 600;
+    font-style: italic;
+    color: #ef5734;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.gallery-top {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.gallery1 {
+    position: relative;
+}
+
+.gallery-grid {
+    padding: 0;
+}
+
+.gallery1 .textbox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    background-color: rgba(51, 204, 153, 0.83);
+    transition: all 0.7s ease;
+    text-align: center;
+}
+
+.gallery1:hover .textbox {
+    transform: scale(1);
+}
+
+.gallery-grid img {
+    width: 100%;
+}
+
+/*  清除栅格的浮动*/
+
+.gallery ::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.textbox p .glyphicon {
+    font-size: 30px;
+    color: white;
+    margin-top: 30%;
+    background-color: #000;
+    width: 100%;
+    line-height: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background: url('./banner3.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 100px;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background: url('./banner3.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 100px;
+}
+.cam{
+    text-align: center;
+}
+.cam a span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.social{
+    margin: 20px;
+    text-align: center;
+}
+.social ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.social ul li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.social ul li a.envelope span{
+	color:#3b5998;
+}
+.social ul li a.globe span{
+	color:#1da1f2;
+}
+.social ul li a.picture span{
+	color:#ea4c89;
+}
+.social ul li a.phone-alt span{
+	color:#f26522;
+}
+.social ul li a:hover{
+    opacity: 0.6;
+}
+.social ul li span{
+    font-size: 15px;
+    line-height: 30px; 
+}
+.copy-right p{
+    color: white;
+    line-height: 18px;
+    text-align: center;
+}
+.glyphicon.glyphicon-camera{
+    color: white;
+}
